@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @nappi.year %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @nappi.age %>
+</p>
+
+<%= link_to 'Edit', edit_nappi_path(@nappi) %> |
+<%= link_to 'Back', nappis_path %>

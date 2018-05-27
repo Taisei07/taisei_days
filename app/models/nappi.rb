@@ -1,0 +1,2 @@
+class Nappi < ApplicationRecord
+end
